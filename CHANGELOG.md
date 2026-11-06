@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Added
+- Sắp xếp giỏ hàng theo tiêu đề và giá.
+
 ## [1.0.0] - 2026-11-06
 
 ### Added
