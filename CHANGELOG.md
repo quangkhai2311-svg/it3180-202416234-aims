@@ -4,6 +4,7 @@
 
 ### Added
 - Sắp xếp giỏ hàng theo tiêu đề và giá.
+- Tìm DVD theo danh mục (không phân biệt hoa thường).
 
 ## [1.0.0] - 2026-11-06
 
