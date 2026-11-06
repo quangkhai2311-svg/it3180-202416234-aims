@@ -19,3 +19,5 @@ Python >= 3.10; chỉ dùng thư viện chuẩn.
 ```bash
 python3 -m unittest discover -s tests -v
 ```
+
+Thực hành với Python 3; các lab dùng chung repository này.
