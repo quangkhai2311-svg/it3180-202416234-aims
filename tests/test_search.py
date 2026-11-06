@@ -9,5 +9,7 @@ class SearchTest(unittest.TestCase):
         discs = [DigitalVideoDisc("The Lion King"), DigitalVideoDisc("Aladdin")]
         self.assertEqual(search_by_title(discs, "Lion"), [discs[0]])
         self.assertEqual(search_by_title(discs, "missing"), [])
+        self.assertEqual(search_by_title(discs, "lion"), [discs[0]])
+        self.assertEqual(search_by_title(discs, "LION"), [discs[0]])
         self.assertEqual(search_by_title([], "lion"), [])
         self.assertEqual(search_by_title(discs, ""), discs)
